@@ -1,5 +1,5 @@
 {
-    "nivel1": [
+    "0": [
         {
             "pregunta": "Quien descubrió América",
             "respIncorrecta": [
@@ -51,7 +51,7 @@
             "respCorrecta": "Astronomía"
         }
     ],
-    "nivel2": [
+    "1": [
         {
             "pregunta": "Cuál es la capital de Italia",
             "respIncorrecta": [
@@ -103,7 +103,7 @@
             "respCorrecta": "5"
         }
     ],
-    "nivel3": [
+    "2": [
         {
             "pregunta": "Cómo se llama el proceso por el que las plantas extraen energía de la luz solar",
             "respIncorrecta": [
@@ -155,7 +155,7 @@
             "respCorrecta": "Joe Biden"
         }
     ],
-    "nivel4": [
+    "3": [
         {
             "pregunta": "Cuándo empieza la Edad Media",
             "respIncorrecta": [
@@ -207,7 +207,7 @@
             "respCorrecta": "Italia"
         }
     ],
-    "nivel5": [
+    "4": [
         {
             "pregunta": "A qué arte se dedicó Le Corbusier",
             "respIncorrecta": [
