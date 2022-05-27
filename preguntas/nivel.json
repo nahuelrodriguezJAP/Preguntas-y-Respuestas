@@ -5,7 +5,6 @@
             "respIncorrecta": [
                 "Mahatma Gandhi",
                 "Barack Obama",
-                "Harry Potter",
                 "Napoleón Bonaparte"
             ],
             "respCorrecta": "Cristóbal Colón"
@@ -14,16 +13,14 @@
             "pregunta": "En que continente está ubicado Colombia",
             "respIncorrecta": [
                 "África",
-                "Europa",
                 "Asia",
                 "América del Norte"
             ],
             "respCorrecta": "América del Sur"
         },
         {
-            "pregunta": "Cuantos munumentos se han considerado maraviilas del mundo",
+            "pregunta": "Cuantos munumentos se han considerado las maraviilas del mundo",
             "respIncorrecta": [
-                "15",
                 "12",
                 "3",
                 "9"
@@ -34,9 +31,8 @@
             "pregunta": "Qué es un siglo",
             "respIncorrecta": [
                 "400 Días",
-                "5 Años",
-                "10 Años",
-                "25 Meses"
+                "50 Años",
+                "10 Años"
             ],
             "respCorrecta": "100 Años"
         },
@@ -45,8 +41,7 @@
             "respIncorrecta": [
                 "Sociología",
                 "Geografía",
-                "Biología",
-                "Física"
+                "Biología"
             ],
             "respCorrecta": "Astronomía"
         }
@@ -56,7 +51,6 @@
             "pregunta": "Cuál es la capital de Italia",
             "respIncorrecta": [
                 "Berlín",
-                "Budapest",
                 "Londres",
                 "París"
             ],
@@ -65,7 +59,6 @@
         {
             "pregunta": "Cuántos kilos son una tonelada",
             "respIncorrecta": [
-                "2000 kilos",
                 "100 kilos",
                 "10000 kilos",
                 "500 kilos"
@@ -77,7 +70,6 @@
             "respIncorrecta": [
                 "India",
                 "Estados Unidos",
-                "Rusia",
                 "Japón"
             ],
             "respCorrecta": "China"
@@ -87,15 +79,14 @@
             "respIncorrecta": [
                 "El Pacífico",
                 "El Índico",
-                "El Ártico",
-                "El Antártico"
+                "El Ártico"
+                
             ],
             "respCorrecta": "El Atlántico"
         },
         {
             "pregunta": "Si tengo 25 manzanas y le doy a mi mejor amigo el 20% de ellas. ¿Cuántas manzanas le he dado?",
             "respIncorrecta": [
-                "20",
                 "10",
                 "4",
                 "12"
@@ -107,7 +98,6 @@
         {
             "pregunta": "Cómo se llama el proceso por el que las plantas extraen energía de la luz solar",
             "respIncorrecta": [
-                "Transpiración",
                 "Respiración",
                 "Digestión",
                 "Vegetativo"
@@ -119,7 +109,6 @@
             "respIncorrecta": [
                 "África",
                 "Europa",
-                "Asia",
                 "América del Norte"
             ],
             "respCorrecta": "América del Sur"
@@ -128,7 +117,6 @@
             "pregunta": "En qué año llegó el hombre a la luna",
             "respIncorrecta": [
                 "1900",
-                "1996",
                 "1768",
                 "1953"
             ],
@@ -137,7 +125,6 @@
         {
             "pregunta": "Cuantas personas hay en el mundo aproximadamente",
             "respIncorrecta": [
-                "9.987.000.000",
                 "3.987.000.000",
                 "10.987.000.000",
                 "1.987.000.000"
@@ -149,7 +136,6 @@
             "respIncorrecta": [
                 "Donald Trump",
                 "Barack Obama",
-                "George W. Bush",
                 "Bill Clinton"
             ],
             "respCorrecta": "Joe Biden"
@@ -159,7 +145,6 @@
         {
             "pregunta": "Cuándo empieza la Edad Media",
             "respIncorrecta": [
-                "905 D.C",
                 "103 D.C",
                 "758 D.C",
                 "371 A.C"
@@ -171,8 +156,7 @@
             "respIncorrecta": [
                 "Año 1396",
                 "Año 1246",
-                "Año 1474",
-                "Año 1590"
+                "Año 1474"
             ],
             "respCorrecta": "Año 1492"
         },
@@ -181,8 +165,7 @@
             "respIncorrecta": [
                 "Coliseo Romano",
                 "La Gran Muralla China",
-                "El Taj Mahal",
-                "Cristo Redentor"
+                "El Taj Mahal"
             ],
             "respCorrecta": "Machu Picchu"
         },
@@ -190,7 +173,6 @@
             "pregunta": "Quien descubrió de la Radioactividad",
             "respIncorrecta": [
                 "Galileo Galilei",
-                "Michael Faraday",
                 "Albert Einstein",
                 "Isaac Newton"
             ],
@@ -201,8 +183,7 @@
             "respIncorrecta": [
                 "Francia",
                 "Alemania",
-                "Grecia",
-                "Belgica"
+                "Grecia"
             ],
             "respCorrecta": "Italia"
         }
@@ -213,7 +194,6 @@
             "respIncorrecta": [
                 "Escultura",
                 "Pintura",
-                "Música",
                 "Literatura"
             ],
             "respCorrecta": "Arquitectura"
@@ -223,8 +203,7 @@
             "respIncorrecta": [
                 "Francia",
                 "España",
-                "Inglaterra",
-                "Argentina"
+                "Inglaterra"
             ],
             "respCorrecta": "Brasil"
         },
@@ -233,8 +212,7 @@
             "respIncorrecta": [
                 "2000 millones",
                 "10 millones",
-                "300 millones",
-                "9000 millones"
+                "300 millones"
             ],
             "respCorrecta": "1000 millones"
         },
@@ -243,15 +221,13 @@
             "respIncorrecta": [
                 "Camerún",
                 "Angola",
-                "Sudáfrica",
-                "Senegal"
+                "Sudáfrica"
             ],
             "respCorrecta": "Ginea Ecuatorial"
         },
         {
             "pregunta": "Quién pintó la Mona Lisa",
             "respIncorrecta": [
-                "Donatello",
                 "Picasso",
                 "Miguel Angel",
                 "Van Gogh"
