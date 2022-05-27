@@ -1,7 +1,7 @@
 {
     "0": [
         {
-            "pregunta": "Quien descubrió América",
+            "pregunta": "Quien descubrió América?",
             "respIncorrecta": [
                 "Mahatma Gandhi",
                 "Barack Obama",
@@ -10,7 +10,7 @@
             "respCorrecta": "Cristóbal Colón"
         },
         {
-            "pregunta": "En que continente está ubicado Colombia",
+            "pregunta": "En que continente está ubicado Colombia?",
             "respIncorrecta": [
                 "África",
                 "Asia",
@@ -19,7 +19,7 @@
             "respCorrecta": "América del Sur"
         },
         {
-            "pregunta": "Cuantos munumentos se han considerado las maraviilas del mundo",
+            "pregunta": "Cuantos munumentos se han considerado las maraviilas del mundo?",
             "respIncorrecta": [
                 "12",
                 "3",
@@ -28,7 +28,7 @@
             "respCorrecta": "7"
         },
         {
-            "pregunta": "Qué es un siglo",
+            "pregunta": "Qué es un siglo?",
             "respIncorrecta": [
                 "400 Días",
                 "50 Años",
@@ -37,7 +37,7 @@
             "respCorrecta": "100 Años"
         },
         {
-            "pregunta": "Cómo se llama la ciencia que estudia los astros",
+            "pregunta": "Cómo se llama la ciencia que estudia los astros?",
             "respIncorrecta": [
                 "Sociología",
                 "Geografía",
@@ -48,7 +48,7 @@
     ],
     "1": [
         {
-            "pregunta": "Cuál es la capital de Italia",
+            "pregunta": "Cuál es la capital de Italia?",
             "respIncorrecta": [
                 "Berlín",
                 "Londres",
@@ -57,7 +57,7 @@
             "respCorrecta": "Roma"
         },
         {
-            "pregunta": "Cuántos kilos son una tonelada",
+            "pregunta": "Cuántos kilos son una tonelada?",
             "respIncorrecta": [
                 "100 kilos",
                 "10000 kilos",
@@ -66,7 +66,7 @@
             "respCorrecta": "1000 kilos"
         },
         {
-            "pregunta": "Cuál es el país con mayor población del mundo",
+            "pregunta": "Cuál es el país con mayor población del mundo?",
             "respIncorrecta": [
                 "India",
                 "Estados Unidos",
@@ -75,7 +75,7 @@
             "respCorrecta": "China"
         },
         {
-            "pregunta": "|Cual es el oceano que separa a las Américas de Europa",
+            "pregunta": "|Cual es el oceano que separa a las Américas de Europa?",
             "respIncorrecta": [
                 "El Pacífico",
                 "El Índico",
@@ -96,7 +96,7 @@
     ],
     "2": [
         {
-            "pregunta": "Cómo se llama el proceso por el que las plantas extraen energía de la luz solar",
+            "pregunta": "Cómo se llama el proceso por el que las plantas extraen energía de la luz solar?",
             "respIncorrecta": [
                 "Respiración",
                 "Digestión",
@@ -105,7 +105,7 @@
             "respCorrecta": "Fotosintesis"
         },
         {
-            "pregunta": "Dónde encontramos la cordillera de Los Andes",
+            "pregunta": "Dónde encontramos la cordillera de Los Andes?",
             "respIncorrecta": [
                 "África",
                 "Europa",
@@ -114,7 +114,7 @@
             "respCorrecta": "América del Sur"
         },
         {
-            "pregunta": "En qué año llegó el hombre a la luna",
+            "pregunta": "En qué año llegó el hombre a la luna?",
             "respIncorrecta": [
                 "1900",
                 "1768",
@@ -123,7 +123,7 @@
             "respCorrecta": "1969"
         },
         {
-            "pregunta": "Cuantas personas hay en el mundo aproximadamente",
+            "pregunta": "Cuantas personas hay en el mundo aproximadamente?",
             "respIncorrecta": [
                 "3.987.000.000",
                 "10.987.000.000",
@@ -132,7 +132,7 @@
             "respCorrecta": "7.987.000.000"
         },
         {
-            "pregunta": "Quien es el presidente actual de Estados Unidos",
+            "pregunta": "Quien es el presidente actual de Estados Unidos?",
             "respIncorrecta": [
                 "Donald Trump",
                 "Barack Obama",
@@ -143,7 +143,7 @@
     ],
     "3": [
         {
-            "pregunta": "Cuándo empieza la Edad Media",
+            "pregunta": "Cuándo empieza la Edad Media?",
             "respIncorrecta": [
                 "103 D.C",
                 "758 D.C",
@@ -152,7 +152,7 @@
             "respCorrecta": "476 D.C"
         },
         {
-            "pregunta": "Cuando se descubrió Ámerica",
+            "pregunta": "Cuando se descubrió Ámerica?",
             "respIncorrecta": [
                 "Año 1396",
                 "Año 1246",
@@ -161,7 +161,7 @@
             "respCorrecta": "Año 1492"
         },
         {
-            "pregunta": "cual es la tercera maravilla del mundo",
+            "pregunta": "cual es la tercera maravilla del mundo?",
             "respIncorrecta": [
                 "Coliseo Romano",
                 "La Gran Muralla China",
@@ -170,7 +170,7 @@
             "respCorrecta": "Machu Picchu"
         },
         {
-            "pregunta": "Quien descubrió de la Radioactividad",
+            "pregunta": "Quien descubrió de la Radioactividad?",
             "respIncorrecta": [
                 "Galileo Galilei",
                 "Albert Einstein",
@@ -179,7 +179,7 @@
             "respCorrecta": "Marie Curie"
         },
         {
-            "pregunta": "En qué país se encuentra la Torre de Pisa",
+            "pregunta": "En qué país se encuentra la Torre de Pisa?",
             "respIncorrecta": [
                 "Francia",
                 "Alemania",
@@ -190,7 +190,7 @@
     ],
     "4": [
         {
-            "pregunta": "A qué arte se dedicó Le Corbusier",
+            "pregunta": "A qué arte se dedicó Le Corbusier?",
             "respIncorrecta": [
                 "Escultura",
                 "Pintura",
@@ -199,7 +199,7 @@
             "respCorrecta": "Arquitectura"
         },
         {
-            "pregunta": "Qué selección ganó el Mundial de Futbol 2002",
+            "pregunta": "Qué selección ganó el Mundial de Futbol 2002?",
             "respIncorrecta": [
                 "Francia",
                 "España",
@@ -208,7 +208,7 @@
             "respCorrecta": "Brasil"
         },
         {
-            "pregunta": "Cuantos habitantes tiene América",
+            "pregunta": "Cuantos habitantes tiene América?",
             "respIncorrecta": [
                 "2000 millones",
                 "10 millones",
@@ -226,7 +226,7 @@
             "respCorrecta": "Ginea Ecuatorial"
         },
         {
-            "pregunta": "Quién pintó la Mona Lisa",
+            "pregunta": "Quién pintó la Mona Lisa?",
             "respIncorrecta": [
                 "Picasso",
                 "Miguel Angel",

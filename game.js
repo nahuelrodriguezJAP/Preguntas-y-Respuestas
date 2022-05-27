@@ -7,7 +7,8 @@ function aleatorio(max, min) {
 function preguntar(niveles) {
     var preguntas = "";
     var respuestas = [];
-    let valorAleatorio = aleatorio(3, 0);
+    var respDesordenadas = [];
+    let valorAleatorio = aleatorio(2, 0);
     preguntas = niveles[nivelActual];
     console.log(preguntas[valorAleatorio])
     document.getElementById('pregunta').innerText = preguntas[valorAleatorio].pregunta;
@@ -15,30 +16,24 @@ function preguntar(niveles) {
     respuestas[1] = `${preguntas[valorAleatorio].respIncorrecta[1]}`;
     respuestas[2] = `${preguntas[valorAleatorio].respIncorrecta[2]}`;
     respuestas[3] = `${preguntas[valorAleatorio].respCorrecta}`;
-    console.log(respuestas);
-    for (let i = 0; i < respuestas.length; i++) {
-        var resp = respuestas[i];
-        console.log(resp)
-        document.getElementById('respuestas').innerHTML += `<div id="${i}"><Button>${resp}`
+    respDesordenadas=respuestas.sort((a,b) => Math.random() - 0.5)
+    for (let i = 0; i < respDesordenadas.length; i++) {
+        var resp = respDesordenadas[i];
+        document.getElementById('respuestas').innerHTML += `<div class="col-2" id="${i}"><Button class="btn">${resp}</button></div>`
     }
-
 }
 console.log(respuestas)
-function mezclarResp(x, y) {
+console.log(document.getElementById('0'))
 
 
-}
 document.addEventListener("DOMContentLoaded", function (e) {
     getJSONData(NIVEL).then(function (result) {
         if (result.status === 'ok') {
             var niveles = ""
             niveles = result.data;
             console.log(result.data);
-            console.log(result.data[aleatorio(3, 0)])
-
             preguntar(niveles)
         }
 
     });
 });
-console.log(aleatorio(3, 0))
