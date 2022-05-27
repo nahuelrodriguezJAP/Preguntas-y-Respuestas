@@ -1,6 +1,6 @@
 [{
     "nivel" : "1",
-    "pregunta" : "¿Cuál es la capital de Italia?",
+    "pregunta" : "Cuál es la capital de Italia",
     "respIncorrecta": ["Berlín","Budapest","Londres","París"] ,
     "respCorrecta":"Roma" 
 },{
@@ -16,7 +16,7 @@
     "respCorrecta":"China" 
 },{
     "nivel" : "4",
-    "pregunta" : "Cual es el oceano que separa a las Américas de Europa",
+    "pregunta" : "|Cual es el oceano que separa a las Américas de Europa",
     "respIncorrecta": ["El Pacífico","El Índico","El Ártico","El Antártico"] ,
     "respCorrecta":"El Atlántico"   
 },{

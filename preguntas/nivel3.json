@@ -1,6 +1,6 @@
 [{
     "nivel" : "1",
-    "pregunta" : " Cómo se llama el proceso por el que las plantas extraen energía de la luz solar",
+    "pregunta" : "Cómo se llama el proceso por el que las plantas extraen energía de la luz solar",
     "respIncorrecta": ["Transpiración","Respiración","Digestión","Vegetativo"] ,
     "respCorrecta":"Fotosintesis" 
 },
