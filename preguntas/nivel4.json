@@ -1,0 +1,27 @@
+[{
+   "nivel" : "1",
+    "pregunta" : "Cuándo empieza la Edad Media",
+    "respIncorrecta": ["905 D.C","103 D.C","758 D.C","371 A.C"] ,
+    "respCorrecta":"476 D.C" 
+},
+{
+   "nivel" : "2",
+    "pregunta" : "Cuando se descubrió Ámerica",
+    "respIncorrecta": ["Año 1396","Año 1246","Año 1474","Año 1590"] ,
+    "respCorrecta":"Año 1492" 
+},{
+   "nivel" : "3",
+    "pregunta" : "cual es la tercera maravilla del mundo",
+    "respIncorrecta": ["Coliseo Romano","La Gran Muralla China","El Taj Mahal","Cristo Redentor"] ,
+    "respCorrecta":"Machu Picchu" 
+},{
+    "nivel" : "4",
+    "pregunta" : "Quien descubrió de la Radioactividad",
+    "respIncorrecta": ["Galileo Galilei","Michael Faraday","Albert Einstein","Isaac Newton"] ,
+    "respCorrecta":"Marie Curie"   
+},{
+   "nivel" : "5",
+    "pregunta" : "En qué país se encuentra la Torre de Pisa",
+    "respIncorrecta": ["Francia","Alemania","Grecia","Belgica"] ,
+    "respCorrecta":"Italia" 
+}]
