@@ -1,0 +1,262 @@
+{
+    "nivel1": [
+        {
+            "pregunta": "Quien descubrió América",
+            "respIncorrecta": [
+                "Mahatma Gandhi",
+                "Barack Obama",
+                "Harry Potter",
+                "Napoleón Bonaparte"
+            ],
+            "respCorrecta": "Cristóbal Colón"
+        },
+        {
+            "pregunta": "En que continente está ubicado Colombia",
+            "respIncorrecta": [
+                "África",
+                "Europa",
+                "Asia",
+                "América del Norte"
+            ],
+            "respCorrecta": "América del Sur"
+        },
+        {
+            "pregunta": "Cuantos munumentos se han considerado maraviilas del mundo",
+            "respIncorrecta": [
+                "15",
+                "12",
+                "3",
+                "9"
+            ],
+            "respCorrecta": "7"
+        },
+        {
+            "pregunta": "Qué es un siglo",
+            "respIncorrecta": [
+                "400 Días",
+                "5 Años",
+                "10 Años",
+                "25 Meses"
+            ],
+            "respCorrecta": "100 Años"
+        },
+        {
+            "pregunta": "Cómo se llama la ciencia que estudia los astros",
+            "respIncorrecta": [
+                "Sociología",
+                "Geografía",
+                "Biología",
+                "Física"
+            ],
+            "respCorrecta": "Astronomía"
+        }
+    ],
+    "nivel2": [
+        {
+            "pregunta": "Cuál es la capital de Italia",
+            "respIncorrecta": [
+                "Berlín",
+                "Budapest",
+                "Londres",
+                "París"
+            ],
+            "respCorrecta": "Roma"
+        },
+        {
+            "pregunta": "Cuántos kilos son una tonelada",
+            "respIncorrecta": [
+                "2000 kilos",
+                "100 kilos",
+                "10000 kilos",
+                "500 kilos"
+            ],
+            "respCorrecta": "1000 kilos"
+        },
+        {
+            "pregunta": "Cuál es el país con mayor población del mundo",
+            "respIncorrecta": [
+                "India",
+                "Estados Unidos",
+                "Rusia",
+                "Japón"
+            ],
+            "respCorrecta": "China"
+        },
+        {
+            "pregunta": "|Cual es el oceano que separa a las Américas de Europa",
+            "respIncorrecta": [
+                "El Pacífico",
+                "El Índico",
+                "El Ártico",
+                "El Antártico"
+            ],
+            "respCorrecta": "El Atlántico"
+        },
+        {
+            "pregunta": "Si tengo 25 manzanas y le doy a mi mejor amigo el 20% de ellas. ¿Cuántas manzanas le he dado?",
+            "respIncorrecta": [
+                "20",
+                "10",
+                "4",
+                "12"
+            ],
+            "respCorrecta": "5"
+        }
+    ],
+    "nivel3": [
+        {
+            "pregunta": "Cómo se llama el proceso por el que las plantas extraen energía de la luz solar",
+            "respIncorrecta": [
+                "Transpiración",
+                "Respiración",
+                "Digestión",
+                "Vegetativo"
+            ],
+            "respCorrecta": "Fotosintesis"
+        },
+        {
+            "pregunta": "Dónde encontramos la cordillera de Los Andes",
+            "respIncorrecta": [
+                "África",
+                "Europa",
+                "Asia",
+                "América del Norte"
+            ],
+            "respCorrecta": "América del Sur"
+        },
+        {
+            "pregunta": "En qué año llegó el hombre a la luna",
+            "respIncorrecta": [
+                "1900",
+                "1996",
+                "1768",
+                "1953"
+            ],
+            "respCorrecta": "1969"
+        },
+        {
+            "pregunta": "Cuantas personas hay en el mundo aproximadamente",
+            "respIncorrecta": [
+                "9.987.000.000",
+                "3.987.000.000",
+                "10.987.000.000",
+                "1.987.000.000"
+            ],
+            "respCorrecta": "7.987.000.000"
+        },
+        {
+            "pregunta": "Quien es el presidente actual de Estados Unidos",
+            "respIncorrecta": [
+                "Donald Trump",
+                "Barack Obama",
+                "George W. Bush",
+                "Bill Clinton"
+            ],
+            "respCorrecta": "Joe Biden"
+        }
+    ],
+    "nivel4": [
+        {
+            "pregunta": "Cuándo empieza la Edad Media",
+            "respIncorrecta": [
+                "905 D.C",
+                "103 D.C",
+                "758 D.C",
+                "371 A.C"
+            ],
+            "respCorrecta": "476 D.C"
+        },
+        {
+            "pregunta": "Cuando se descubrió Ámerica",
+            "respIncorrecta": [
+                "Año 1396",
+                "Año 1246",
+                "Año 1474",
+                "Año 1590"
+            ],
+            "respCorrecta": "Año 1492"
+        },
+        {
+            "pregunta": "cual es la tercera maravilla del mundo",
+            "respIncorrecta": [
+                "Coliseo Romano",
+                "La Gran Muralla China",
+                "El Taj Mahal",
+                "Cristo Redentor"
+            ],
+            "respCorrecta": "Machu Picchu"
+        },
+        {
+            "pregunta": "Quien descubrió de la Radioactividad",
+            "respIncorrecta": [
+                "Galileo Galilei",
+                "Michael Faraday",
+                "Albert Einstein",
+                "Isaac Newton"
+            ],
+            "respCorrecta": "Marie Curie"
+        },
+        {
+            "pregunta": "En qué país se encuentra la Torre de Pisa",
+            "respIncorrecta": [
+                "Francia",
+                "Alemania",
+                "Grecia",
+                "Belgica"
+            ],
+            "respCorrecta": "Italia"
+        }
+    ],
+    "nivel5": [
+        {
+            "pregunta": "A qué arte se dedicó Le Corbusier",
+            "respIncorrecta": [
+                "Escultura",
+                "Pintura",
+                "Música",
+                "Literatura"
+            ],
+            "respCorrecta": "Arquitectura"
+        },
+        {
+            "pregunta": "Qué selección ganó el Mundial de Futbol 2002",
+            "respIncorrecta": [
+                "Francia",
+                "España",
+                "Inglaterra",
+                "Argentina"
+            ],
+            "respCorrecta": "Brasil"
+        },
+        {
+            "pregunta": "Cuantos habitantes tiene América",
+            "respIncorrecta": [
+                "2000 millones",
+                "10 millones",
+                "300 millones",
+                "9000 millones"
+            ],
+            "respCorrecta": "1000 millones"
+        },
+        {
+            "pregunta": "Qué país ubicado enteramente en África tiene entre sus idiomas más hablados el español?",
+            "respIncorrecta": [
+                "Camerún",
+                "Angola",
+                "Sudáfrica",
+                "Senegal"
+            ],
+            "respCorrecta": "Ginea Ecuatorial"
+        },
+        {
+            "pregunta": "Quién pintó la Mona Lisa",
+            "respIncorrecta": [
+                "Donatello",
+                "Picasso",
+                "Miguel Angel",
+                "Van Gogh"
+            ],
+            "respCorrecta": "Da Vinci"
+        }
+    ]
+}
