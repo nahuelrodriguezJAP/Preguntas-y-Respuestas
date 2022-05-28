@@ -29,7 +29,7 @@ function preguntar(niveles) {
     respDesordenadas = respuestas.sort((a, b) => Math.random() - 0.5)
     for (let i = 0; i < respDesordenadas.length; i++) {
         var resp = respDesordenadas[i];
-        document.getElementById('respuestas').innerHTML += `<div class="col-2" ><Button onclick="verificar(${i})" id="${i}" class="btn btn-outline-success">${resp}</button></div>`
+        document.getElementById('respuestas').innerHTML += `<div class="col-2" ><Button onclick="verificar(${i})" id="${i}" class="btn btn-outline-success"><strong>${resp}</strong></button></div>`
     }
     ganador();
 }
@@ -46,10 +46,10 @@ function verificar(x) {
 
     }
     else {
-        alert('Respuesta Incorrecta, comienzas en el nivel 0')
+        alert('Respuesta Incorrecta, deberás comenzár denuevo')
         nivelActual = nivelActual - nivelActual;
         guardar();
-        preguntar(niveles)
+        window.location='index.html'
     }
 
 }
