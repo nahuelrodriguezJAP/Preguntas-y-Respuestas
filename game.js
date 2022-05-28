@@ -16,8 +16,8 @@ function preguntar(niveles) {
     respDesordenadas = [];
     let valorAleatorio = aleatorio(3, 0);
     preguntas = niveles[nivelActual];
-    console.log(preguntas)
-    console.log(preguntas[valorAleatorio])
+    console.log(niveles)
+    console.log(nivelActual)
     console.log(valorAleatorio)
     correcta = `${preguntas[valorAleatorio].respCorrecta}`;
     document.getElementById('pregunta').innerText = preguntas[valorAleatorio].pregunta;
