@@ -10,16 +10,12 @@ function aleatorio(max, min) {
 
 function preguntar(niveles) {
     document.getElementById('respuestas').innerHTML = ""
-    document.getElementById('Nivel').innerText = nivelActual+1;
+    document.getElementById('Nivel').innerText = nivelActual + 1;
     preguntas = "";
     respuestas = [];
     respDesordenadas = [];
     let valorAleatorio = aleatorio(3, 0);
     preguntas = niveles[nivelActual];
-    console.log(preguntas)
-    console.log(niveles[0])
-    console.log(nivelActual)
-    console.log(valorAleatorio)
     correcta = `${preguntas[valorAleatorio].respCorrecta}`;
     document.getElementById('pregunta').innerText = preguntas[valorAleatorio].pregunta;
     respuestas[0] = `${preguntas[valorAleatorio].respIncorrecta[0]}`;
@@ -33,6 +29,30 @@ function preguntar(niveles) {
     }
     ganador();
 }
+function nivelacion(x) {
+    let nivelacion = document.getElementById('nivelacion');
+    console.log(nivelacion);
+    console.log(x)
+    if (x == 0) {
+        nivelacion.style.width = "2%"
+    }
+    if (x == 1) {
+        nivelacion.style.width = "20%"
+    }
+    if (x == 2) {
+        nivelacion.style.width = "40%"
+
+    }
+    if (x == 3) {
+        nivelacion.style.width = "60%"
+    }
+    if (x == 4) {
+        nivelacion.style.width = "80%"
+    }
+    if (x == 5) {
+        nivelacion.style.width = "100%"
+    }
+}
 
 function verificar(x) {
     let respElegida = document.getElementById(x).innerText;
@@ -41,6 +61,7 @@ function verificar(x) {
         nivelActual += 1
         guardar();
         ganador()
+        nivelacion(nivelActual)
         preguntar(niveles);
 
 
@@ -49,7 +70,7 @@ function verificar(x) {
         alert('Respuesta Incorrecta, deberás comenzár denuevo')
         nivelActual = nivelActual - nivelActual;
         guardar();
-        window.location='index.html'
+        window.location = 'index.html'
     }
 
 }
@@ -60,9 +81,10 @@ function guardar() {
 }
 function revisar() {
     let lvl = localStorage.getItem('nivel')
-    if(lvl!=null){    
-    lvl = JSON.parse(lvl);
-    nivelActual = lvl;}
+    if (lvl != null) {
+        lvl = JSON.parse(lvl);
+        nivelActual = lvl;
+    }
 }
 function ganador() {
     if (nivelActual == '5') {
@@ -80,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
             niveles = result.data;
             console.log(result.data);
             ganador();
+            nivelacion(nivelActual);
             revisar()
             preguntar(niveles);
         }
