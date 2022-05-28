@@ -70,7 +70,7 @@ function verificar(x) {
         alert('Respuesta Incorrecta, deberás comenzár denuevo')
         nivelActual = nivelActual - nivelActual;
         guardar();
-        window.location = 'index.html'
+        window.location = 'Index.html'
     }
 
 }
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
         }
         document.getElementById('finalizar').addEventListener('click', function () {
             guardar()
-            window.location = 'index.html';
+            window.location = 'Index.html';
         })
 
 
