@@ -34,24 +34,21 @@ function nivelacion(x) {
     console.log(nivelacion);
     console.log(x)
     if (x == 0) {
-        nivelacion.style.width = "2%"
-    }
-    if (x == 1) {
         nivelacion.style.width = "20%"
     }
-    if (x == 2) {
+    if (x == 1) {
         nivelacion.style.width = "40%"
+    }
+    if (x == 2) {
+        nivelacion.style.width = "60%"
 
     }
     if (x == 3) {
-        nivelacion.style.width = "60%"
-    }
-    if (x == 4) {
         nivelacion.style.width = "80%"
     }
-    if (x == 5) {
+    if (x == 4) {
         nivelacion.style.width = "100%"
-    }
+    };
 }
 
 function verificar(x) {
