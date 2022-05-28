@@ -10,13 +10,14 @@ function aleatorio(max, min) {
 
 function preguntar(niveles) {
     document.getElementById('respuestas').innerHTML = ""
-    document.getElementById('Nivel').innerText = nivelActual;
+    document.getElementById('Nivel').innerText = nivelActual+1;
     preguntas = "";
     respuestas = [];
     respDesordenadas = [];
     let valorAleatorio = aleatorio(3, 0);
     preguntas = niveles[nivelActual];
-    console.log(niveles)
+    console.log(preguntas)
+    console.log(niveles[0])
     console.log(nivelActual)
     console.log(valorAleatorio)
     correcta = `${preguntas[valorAleatorio].respCorrecta}`;
@@ -30,6 +31,7 @@ function preguntar(niveles) {
         var resp = respDesordenadas[i];
         document.getElementById('respuestas').innerHTML += `<div class="col-2" ><Button onclick="verificar(${i})" id="${i}" class="btn btn-outline-success">${resp}</button></div>`
     }
+    ganador();
 }
 
 function verificar(x) {
@@ -38,6 +40,7 @@ function verificar(x) {
         alert('Respuesta Correcta, Subes un puesto');
         nivelActual += 1
         guardar();
+        ganador()
         preguntar(niveles);
 
 
@@ -57,14 +60,16 @@ function guardar() {
 }
 function revisar() {
     let lvl = localStorage.getItem('nivel')
+    if(lvl!=null){    
     lvl = JSON.parse(lvl);
-    nivelActual = lvl;
+    nivelActual = lvl;}
 }
 function ganador() {
-    if (nivelActual == '4') {
-        alert('FELICIDADES!!!!! GANASTE!!!!             Tu nivel regresara a 0 para que puedas volver a jugar');
+    if (nivelActual == '5') {
+        alert('FELICIDADES!!!!! GANASTE!!!!             Tu nivel regresara a 1 para que puedas volver a jugar');
         nivelActual = 0;
         guardar()
+        preguntar(niveles);
     }
 
 }
@@ -74,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
         if (result.status === 'ok') {
             niveles = result.data;
             console.log(result.data);
+            ganador();
             revisar()
             preguntar(niveles);
         }
