@@ -1,4 +1,3 @@
-var NivelActual="";
 const NIVEL="https://nahuelrodriguezjap.github.io/Preguntas-y-Respuestas/preguntas/nivel.json";
 
 

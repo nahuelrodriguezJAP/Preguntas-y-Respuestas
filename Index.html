@@ -5,48 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="game.css">
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar bg-light">
-
-        <div class="col-5 ">Nivel Actual: <p id="Nivel"></p>
-        </div>
-        <div class="col-5">
-            <button class="btn btn-outline-success me-2" type="button">Finalizar</button>
-        </div>
-
-
-    </Nav>
     <main>
         <div id="presentacion">
-            <span>PREGUNTAS Y RESPUESTAS</span>
+            <h2>BIENVENIDO A PREGUNTAS Y RESPUESTAS!</h2>
         </div>
-        <div class="container" id="game">
+        <div class="container">
             <div class="row justify-content-center"><span>
-                    <h1>
-                        <div id="pregunta"></div>
-                    </h1>
+                    <h4>
+                        En este juego se te hará una pregunta por cada uno de los 5 niveles con 4 posibles respuestas
+                        por pregunta, pero ten cuidado, si te equivocas deberás comenzar desde el principio.
+                    </h4><br>
+                    <h5>Si quieres cerrar la pestaña puedes volver a jugar desde donde quedaste. Presiona Finalizar para volver al Incio.
+                    </h5>
             </div>
-            <div class="row justify-content-center" id="respuestas"></div>
+            <div>
+                <img src="img/azul.gif" alt="img/azul.gif">
+            </div>
+            <div>
+                <form action="game.html"> 
+                    <button class="btn btn-outline-success me-2" type="submit" id="submit">COMENZAR</button>
+                  </form>
+            </div>
+            
         </div>
 
     </main>
-    <footer><div class="row justify-content-center"><span>Debes responder correctamente para pasar al siguiente nivel. Si pierdes, deberás comenzar desde el
-            nivel Cero </span>
-        <br><span>Las preguntas pueden ser de temas variados y no tienen relacion una con otras.
-        </span></div>
-    </footer>
-
 </body>
 
 </html>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
 <script src="index.js"></script>
 <script src="init.js"></script>
