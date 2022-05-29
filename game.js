@@ -28,6 +28,7 @@ function preguntar(niveles) {
         document.getElementById('respuestas').innerHTML += `<div class="col-2" ><Button onclick="verificar(${i})" id="${i}" class="btn btn-outline-success"><strong>${resp}</strong></button></div>`
     }
     ganador();
+    nivelacion();
 }
 function nivelacion(x) {
     let nivelacion = document.getElementById('nivelacion');
@@ -99,8 +100,9 @@ document.addEventListener("DOMContentLoaded", function (e) {
             niveles = result.data;
             console.log(result.data);
             ganador();
-            nivelacion(nivelActual);
             revisar()
+            nivelacion(nivelActual);
+            
             preguntar(niveles);
         }
         document.getElementById('finalizar').addEventListener('click', function () {
